@@ -1,0 +1,7 @@
+uint64 timestamp
+int32 wheel_ticks_left
+int32 wheel_ticks_right
+int16 wheel_ma_left
+int16 wheel_ma_right
+float32 wheel_velocity_left
+float32 wheel_velocity_right
