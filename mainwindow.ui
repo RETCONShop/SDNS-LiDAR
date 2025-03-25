@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>950</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>950</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>950</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>SDNS Commander V1</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="applications-engineering"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButtonGeneratePoints">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>770</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Generate
+Random
+Points</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonUpdateGraph">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>770</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update
+Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonGenRandomCSV">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>770</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Generate
+Random
+CSV</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widgetGraph" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>891</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonImportBufferToMap">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>770</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Import
+Buffer to
+Map</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonClearMap">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>770</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear
+Map
+File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonOpenServerSocket">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>840</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open
+Server
+Socket</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonCloseServerSocket">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>840</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close
+Server
+Socket</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSendMessageToClient">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>840</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send a
+Message to
+Client</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLoadBufferToMap">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>840</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Buffer
+To Map</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonStartWatchdog">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>840</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start
+Watchdog</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>730</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Code Pro</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Debug Options</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Code Pro</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>SDNS Commander</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEditConsoleLogs">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>90</y>
+      <width>261</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMainOpenServer">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>540</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open
+Server</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMainCloseServer">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>540</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Close
+Server</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMainClearBuffers">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>540</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear
+Buffers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMainResetMapData">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>630</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset
+Map Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMainUpdateGraph">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>630</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update
+Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonTestConsoleLog">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>770</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Test Console
+Logs</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

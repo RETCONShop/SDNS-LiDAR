@@ -1,0 +1,9 @@
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/SDNS-GUI.dir
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install.dir
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install/local.dir
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/install/strip.dir
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/SDNS-GUI_autogen_timestamp_deps.dir
+/home/chroma/Documents/SDNS-GUI/build/Desktop_Qt_6_6_2_GCC_64bit-Debug/CMakeFiles/SDNS-GUI_autogen.dir

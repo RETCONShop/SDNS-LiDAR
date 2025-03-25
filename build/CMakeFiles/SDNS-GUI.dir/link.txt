@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/SDNS-GUI.dir/SDNS-GUI_autogen/mocs_compilation.cpp.o CMakeFiles/SDNS-GUI.dir/main.cpp.o CMakeFiles/SDNS-GUI.dir/mainwindow.cpp.o CMakeFiles/SDNS-GUI.dir/qcustomplot.cpp.o -o SDNS-GUI  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3 -lQt6::PrintSupport /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3 

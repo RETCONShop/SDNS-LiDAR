@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/andrew/Documents/SDNS-GUI/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/andrew/Documents/SDNS-GUI/build/SDNS-GUI_autogen/include -I/home/andrew/Documents/SDNS-GUI -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -std=gnu++17 -o CMakeFiles/SDNS-GUI.dir/SDNS-GUI_autogen/mocs_compilation.cpp.o -c /home/andrew/Documents/SDNS-GUI/build/SDNS-GUI_autogen/mocs_compilation.cpp",
+  "file": "/home/andrew/Documents/SDNS-GUI/build/SDNS-GUI_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/andrew/Documents/SDNS-GUI/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/andrew/Documents/SDNS-GUI/build/SDNS-GUI_autogen/include -I/home/andrew/Documents/SDNS-GUI -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -std=gnu++17 -o CMakeFiles/SDNS-GUI.dir/main.cpp.o -c /home/andrew/Documents/SDNS-GUI/main.cpp",
+  "file": "/home/andrew/Documents/SDNS-GUI/main.cpp"
+},
+{
+  "directory": "/home/andrew/Documents/SDNS-GUI/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/andrew/Documents/SDNS-GUI/build/SDNS-GUI_autogen/include -I/home/andrew/Documents/SDNS-GUI -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -std=gnu++17 -o CMakeFiles/SDNS-GUI.dir/mainwindow.cpp.o -c /home/andrew/Documents/SDNS-GUI/mainwindow.cpp",
+  "file": "/home/andrew/Documents/SDNS-GUI/mainwindow.cpp"
+},
+{
+  "directory": "/home/andrew/Documents/SDNS-GUI/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/andrew/Documents/SDNS-GUI/build/SDNS-GUI_autogen/include -I/home/andrew/Documents/SDNS-GUI -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -std=gnu++17 -o CMakeFiles/SDNS-GUI.dir/qcustomplot.cpp.o -c /home/andrew/Documents/SDNS-GUI/qcustomplot.cpp",
+  "file": "/home/andrew/Documents/SDNS-GUI/qcustomplot.cpp"
+}
+]
